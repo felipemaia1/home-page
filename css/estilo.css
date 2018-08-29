@@ -1,0 +1,245 @@
+* {
+	font-family: Montserrat;
+}
+body{
+	margin: 0px;
+}
+nav {
+	background-color: #2c3e50;
+	position: fixed;
+	width: 100%;
+}
+
+.list {
+	padding: 10px;
+}
+
+.hamburger {
+	display: none;
+}
+.hamburger div {
+	height: 2px;
+	margin: 6px 0;
+	width: 30px;
+	background-color: #fff;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+.container-menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container-menu .logo a {
+	text-decoration: none;
+}
+.container-menu h1 {
+	color: #fff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.container-menu .list ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.container-menu .list ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 10px;
+	color: #fff;
+	font-weight: bold;
+}
+.container-menu .list ul li a:hover {
+	color: #18bc9c;
+}
+
+header{
+	background-color: #18bc9c;
+	padding-top: 200px;
+}
+
+header .cabeca {
+	width: 100%;
+}
+.container-header {
+	color: white;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.container-header h2 {
+	font-size: 4.75em;
+	line-height: 4rem;
+
+}
+.container-header h3 {
+	font-size: 1.75em;
+	font-weight: 300!important;
+}
+
+.foto-perfil {
+	margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px;
+}
+
+#portifolio {
+	padding-top: 3em;
+}
+
+.container  .titulo {
+	font-size: 3em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #2c3e50;
+}
+
+#portifolio .row {
+	display: flex;
+	margin-bottom: 30px;
+}
+#portifolio .row .col {
+	width: 33.33%;
+	margin: 0 15px;
+}
+#portifolio .row .col img {
+	max-width: 100%;
+	transition: 1s;
+	cursor: pointer;
+}
+#portifolio .row .col img:hover {
+	transform: scale(1.1);
+	opacity: 0.7;
+}
+
+.about {
+	background-color: #18bc9c!important;
+	padding: 6rem 0;
+}
+
+.container #titulo-about {
+	color: white;
+}
+
+.texto-about p {
+	font-family: sans-serif;
+	font-size: 1.5rem;
+    line-height: 1.5em;
+    color: #fff;
+}
+
+.rodape {
+	background-color: #2c3e50;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 80px 0px;
+	margin: 0px 40px;
+}
+
+.location {
+	width: 50%;
+	text-align: center;
+}
+
+.web {
+	width: 50%;
+	text-align: center;
+}
+
+
+.pFooter {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.pFooter a {
+	color: #18bc9c;
+	text-decoration: none;
+	font-family: sans-serif;
+}
+
+.pFooter a:hover{
+	text-decoration: underline;
+}
+
+
+h4 {
+	font-weight: 700;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase!important;
+}
+.portifolio-h4 {
+	font-weight: 700;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    color: #2c3e50;
+    text-transform: uppercase!important;
+    text-align: center;
+}
+
+.copy {
+	text-align: center;
+	background-color: #1a252f;
+	color: #fff;
+	padding-bottom: 1.5rem!important;
+	padding-top: 1.5rem!important;
+}
+
+#copy {
+	font-family: sans-serif;
+}
+
+#copy a {
+	text-decoration: none;
+	color: #18bc9c;
+}
+
+.web li {
+	display:inline-block;
+}
+
+.web ul {
+	padding: 0;
+}
+
+.web li img {
+	width: 65px;
+	height: 65px;
+	margin: 5px;
+}
+@media (max-width: 768px) {
+	.container-menu {
+		width: 90%;
+	}
+	.container-menu h1 {
+		font-size: 1.5em;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.container-menu .list ul {
+		display: none;
+	}
+	.container-header h2 {
+		font-size: 1em;
+	}
+
+	#portifolio h2 {
+		font-size: 1em;
+	}
+}
