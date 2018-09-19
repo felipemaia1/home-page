@@ -59,7 +59,7 @@ nav {
 
 header{
 	background-color: #18bc9c;
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 header .cabeca {
@@ -83,9 +83,7 @@ header .cabeca {
 .foto-perfil {
 	margin-top: 20px;
     margin-bottom: 3px;
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
+    clip-path: circle(40%);
 }
 
 #portifolio {
