@@ -96,19 +96,11 @@
 		</section>
 		<footer class="rodape" id="contato">
 				<h2 class="titulo" id="titulo-about">Contato</h2>
-				<form name="contact" method="POST" netlify>
-				  <p>
-				    <label>Nome: <input type="text" name="name" /></label>   
-				  </p>
-				  <p>
-				    <label>Email: <input type="email" name="email" /></label>
-				  </p>
-				  <p>
-				    <label>Mensagem: <textarea name="message"></textarea></label>
-				  </p>
-				  <p>
-				    <button type="submit">Enviar</button>
-				  </p>
+				<form name="contact" id="form" method="POST" netlify>
+					<input type="text" name="name" placeholder="Nome" />
+					<input type="email" name="email" placeholder="Email" />
+					<textarea name="message" placeholder="Mensagem"></textarea></label>
+					<button type="submit">Enviar</button>
 				</form>
 				<div class="lista-contato">
 					<ul>

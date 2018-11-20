@@ -183,6 +183,42 @@ header .cabeca {
 	font-size: 1.2rem;
 	font-family: sans-serif;
 }
+
+#contato .titulo {
+	color: #fff;
+} 
+#form {
+	width: 75%;
+	margin: 0 auto 60px;	
+}
+#form input, #form textarea {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #18bc9c;
+	background: none;
+	margin: 10px auto;
+	height: 40px;
+	color: #fff;
+	outline: none;
+}
+
+#form input::placeholder, #form textarea::placeholder {
+	color: #fff;
+}
+
+#form button {
+	height: 40px;
+	border: none;
+	color: #fff;
+	background: #18bc9c;
+	padding: 0 20px;
+	cursor: pointer;
+}
+#form button:hover {
+	background: #288573;
+}
+
+
 @media (max-width: 768px) {
 	#portifolio .row {
 		display: block;
