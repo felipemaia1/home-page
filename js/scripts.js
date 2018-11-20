@@ -1,11 +1,6 @@
-var menu = $('.hamburger');
-var containerMenu = $('.container-menu');
-var menuList = $('.container-menu .list ul');
-
-menu.onclick = function() {
-	containerMenu.style.display = 'block';
-	menuList.style.display = 'block';
-}
+$('.hamburger').on('click', function(){
+	$('.menu-responsive').slideToggle();
+})
 
 $('nav a').on('click', function() {
 	var href = $(this).attr('href');
