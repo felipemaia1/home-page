@@ -88,7 +88,11 @@ header .cabeca {
 .foto-perfil {
 	margin-top: 20px;
     margin-bottom: 3px;
-    clip-path: circle(40%);
+   	height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
 }
 
 #portifolio {
